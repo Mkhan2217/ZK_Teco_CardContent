@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(183, 197, 183);
+    padding: 50px;
+  }
+  .item1 { grid-area:Car; }
+  .item2 { grid-area: Watch;}
+  .item3 { grid-area: Bike; }
+  .item4 { grid-area: Course; }
+   
+  
+  .gridImages {
+    display: grid;
+    grid-template-areas:
+      'Car Watch Bike Course'
+      'Car Watch Bike Course'
+      'Car Watch Bike Course'
+      'Car Watch Bike Course'
+      'Car Watch Bike Course'
+      'Car Watch Bike Course';
+    gap: 1%;
+    background-color: #223849;
+    padding: 2%;
+    margin: auto;
+  }
+  
+  .gridImages > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+ h2{
+    background-color:black;
+    color: rgb(227, 240, 235);
+    text-transform: capitalize;
+    font-family: sans-serif;
+
+ }
